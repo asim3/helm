@@ -1,19 +1,5 @@
 # My Helm Charts
-
-## Repositories
-
-- bitnami `helm repo add bitnami https://charts.bitnami.com/bitnami`
-
-### CMS
-- WordPress
-- Drupal
-- Joomla
-
-### Classifieds
-- Osclass
-
-
----
+[guide](https://helm.sh/docs/chart_template_guide)
 
 
 ## Run using Minikube
@@ -32,7 +18,7 @@ curl $(minikube ip):$(kubectl get service/my-wordpress -o jsonpath='{.spec.ports
 ```
 
 
-### Run Ingress using Minikube
+## Ingress using Minikube
 ```sh
 minikube addons enable ingress
 
