@@ -1,2 +1,2 @@
-# helm
-My Helm charts.
+# My Helm Charts
+---
